@@ -3,7 +3,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+}
 
+.gif{
   background-image: url( "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTAycXFmbmxybXZ4YWx3M2Q4aWF3aHl3bHpwY3FxZ3BjendiZTdlaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Anhre7R94zyDEnYe9e/giphy-downsized-large.gif" );
   background-size: cover; /* Ajustar la imagen al tamaño de la ventana */
   background-position: center; /* Posicionar la imagen en el centro */
@@ -134,3 +136,40 @@ h1 {
   text-align: center;
 }
 
+.puntuaciones{
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+table{
+  color:#fff;
+  font-size: 14px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: center;
+}
+thead{
+  background-color: #3886A2;
+}
+th{
+  padding: 20px 15px;
+  font-weight: 700;
+  text-transform: uppercase; 
+}
+td{
+  padding: 15px;
+  border-bottom: solid 1px;
+}
+tbody tr{
+  cursor: pointer;
+}
+tbody tr:hover{
+  background-color: rgb(60, 155, 158);
+}
+
+.header-pantallajuego {
+  background-color: #333;
+}
+
+.pantalla-juego{
+  background-color: rgb(36, 73, 129);
+}
