@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Configuración</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="containerdos fondo">
+        <h1 class="text-center letras"> <b>Menú de configuración</b></h1>
+        <form id="configForm">
+            <label class="letras2" for="volume"><b>Volumen:</b></label>
+            <input type="range" id="volume" name="volume" min="0" max="100" value="50" class="form-control-range letras2">
+            
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="music" name="music" checked>
+                <label class="form-check-label letras2" for="music"><b>Música de fondo</b></label>
+            </div>                       
+
+            <div style="text-align:center">
+                <button type="button" id="saveButton" class="btn btn-primary button2">Guardar Configuración</button>
+                &nbsp;&nbsp;
+                <button type="button" id="logoutButton" class="btn btn-primary button3">Salir</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="includes/xcript_config.js"></script>
+</body>
+</html>
