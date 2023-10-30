@@ -172,12 +172,18 @@ tbody tr:hover{
 
 .pantalla-juego{
  background-color: rgb(36, 73, 129);
-<<<<<<< Updated upstream
-}
-=======
 }
 
 #btnregister {
   display: none;
   }
->>>>>>> Stashed changes
+
+  /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300&display=swap');
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300&display=swap') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+*/
